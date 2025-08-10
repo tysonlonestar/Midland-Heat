@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_266eec30c86a4f1df629587d01369e5c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_266eec30c86a4f1df629587d01369e5c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_266eec30c86a4f1df629587d01369e5c = L.map(
+                "map_266eec30c86a4f1df629587d01369e5c",
+                {
+                    center: [31.9974, -102.0779],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_900719824a4e7bd8f3f62b389e16c547 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_266eec30c86a4f1df629587d01369e5c);
+        
+    
+            var marker_dcc4448cec7055a86c335f3a515f1d5c = L.marker(
+                [31.99795, -102.07755],
+                {}
+            ).addTo(map_266eec30c86a4f1df629587d01369e5c);
+        
+    
+            var icon_0e488b0043ae84a3534bf064e4867f02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_dcc4448cec7055a86c335f3a515f1d5c.setIcon(icon_0e488b0043ae84a3534bf064e4867f02);
+        
+    
+        var popup_0a17822767e20c434e046b135fd1d127 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2b4db97c453aaae81f8336548c16266 = $(`<div id="html_f2b4db97c453aaae81f8336548c16266" style="width: 100.0%; height: 100.0%;">Centennial Park / Commons Live Music</div>`)[0];
+            popup_0a17822767e20c434e046b135fd1d127.setContent(html_f2b4db97c453aaae81f8336548c16266);
+        
+
+        marker_dcc4448cec7055a86c335f3a515f1d5c.bindPopup(popup_0a17822767e20c434e046b135fd1d127)
+        ;
+
+        
+    
+    
+            var marker_7bad71ed289dc3b6eb01ff48187d3f6f = L.marker(
+                [31.9975, -102.0782],
+                {}
+            ).addTo(map_266eec30c86a4f1df629587d01369e5c);
+        
+    
+            var icon_ef9fcd25fdfcb8c9473dd9c544ee2165 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7bad71ed289dc3b6eb01ff48187d3f6f.setIcon(icon_ef9fcd25fdfcb8c9473dd9c544ee2165);
+        
+    
+        var popup_769a2386d112cfd179a97dac5a2c8140 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df5cff40f2560461ec2cc63d9079ba9e = $(`<div id="html_df5cff40f2560461ec2cc63d9079ba9e" style="width: 100.0%; height: 100.0%;">Bush Convention Center</div>`)[0];
+            popup_769a2386d112cfd179a97dac5a2c8140.setContent(html_df5cff40f2560461ec2cc63d9079ba9e);
+        
+
+        marker_7bad71ed289dc3b6eb01ff48187d3f6f.bindPopup(popup_769a2386d112cfd179a97dac5a2c8140)
+        ;
+
+        
+    
+    
+            var marker_daf647f8d38734e92706f3659bb9938e = L.marker(
+                [31.99825, -102.07695],
+                {}
+            ).addTo(map_266eec30c86a4f1df629587d01369e5c);
+        
+    
+            var icon_b259f585cd9a6c8736942602f3624805 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_daf647f8d38734e92706f3659bb9938e.setIcon(icon_b259f585cd9a6c8736942602f3624805);
+        
+    
+        var popup_28ef756fee53fe9d0dfd4e31e971e772 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42f30f6869b305260b3a168cc90556f9 = $(`<div id="html_42f30f6869b305260b3a168cc90556f9" style="width: 100.0%; height: 100.0%;">Bourbon Street</div>`)[0];
+            popup_28ef756fee53fe9d0dfd4e31e971e772.setContent(html_42f30f6869b305260b3a168cc90556f9);
+        
+
+        marker_daf647f8d38734e92706f3659bb9938e.bindPopup(popup_28ef756fee53fe9d0dfd4e31e971e772)
+        ;
+
+        
+    
+    
+            var marker_e4670e937c7f0542bcddb5ae63a83198 = L.marker(
+                [31.9976, -102.07705],
+                {}
+            ).addTo(map_266eec30c86a4f1df629587d01369e5c);
+        
+    
+            var icon_17b757db9985d83c8a5988f3ce3eadd0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e4670e937c7f0542bcddb5ae63a83198.setIcon(icon_17b757db9985d83c8a5988f3ce3eadd0);
+        
+    
+        var popup_ea68ee711a20ce309980fb67d0dd827e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_876fc60b2902ca64d3d5cde7dc89d758 = $(`<div id="html_876fc60b2902ca64d3d5cde7dc89d758" style="width: 100.0%; height: 100.0%;">Opal's Table</div>`)[0];
+            popup_ea68ee711a20ce309980fb67d0dd827e.setContent(html_876fc60b2902ca64d3d5cde7dc89d758);
+        
+
+        marker_e4670e937c7f0542bcddb5ae63a83198.bindPopup(popup_ea68ee711a20ce309980fb67d0dd827e)
+        ;
+
+        
+    
+    
+            var marker_5e5c3ce8f5f83bb5f4dc6b6acf8b7b7e = L.marker(
+                [31.9979, -102.078],
+                {}
+            ).addTo(map_266eec30c86a4f1df629587d01369e5c);
+        
+    
+            var icon_bb7ae8a3c78ca0640f2d9ada246beae6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5e5c3ce8f5f83bb5f4dc6b6acf8b7b7e.setIcon(icon_bb7ae8a3c78ca0640f2d9ada246beae6);
+        
+    
+        var popup_ea3b8229cf5385101b4036ba3b6a7de0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b5acea338c18684d41a331ffda82c07 = $(`<div id="html_9b5acea338c18684d41a331ffda82c07" style="width: 100.0%; height: 100.0%;">Pi Social</div>`)[0];
+            popup_ea3b8229cf5385101b4036ba3b6a7de0.setContent(html_9b5acea338c18684d41a331ffda82c07);
+        
+
+        marker_5e5c3ce8f5f83bb5f4dc6b6acf8b7b7e.bindPopup(popup_ea3b8229cf5385101b4036ba3b6a7de0)
+        ;
+
+        
+    
+    
+            var marker_618de95320ab8aa9e5070e1bb86098d9 = L.marker(
+                [31.9973, -102.0778],
+                {}
+            ).addTo(map_266eec30c86a4f1df629587d01369e5c);
+        
+    
+            var icon_a7ea891b1157c77bc6a0cc441f6a46aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_618de95320ab8aa9e5070e1bb86098d9.setIcon(icon_a7ea891b1157c77bc6a0cc441f6a46aa);
+        
+    
+        var popup_2929f920d55fb9644759143f016d901b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1d2d1662c99bc934dc97c13ccd564a4 = $(`<div id="html_c1d2d1662c99bc934dc97c13ccd564a4" style="width: 100.0%; height: 100.0%;">Wyndham Midland Downtown</div>`)[0];
+            popup_2929f920d55fb9644759143f016d901b.setContent(html_c1d2d1662c99bc934dc97c13ccd564a4);
+        
+
+        marker_618de95320ab8aa9e5070e1bb86098d9.bindPopup(popup_2929f920d55fb9644759143f016d901b)
+        ;
+
+        
+    
+    
+            var marker_147638569e2cd5e0eaf1bcb94d322f35 = L.marker(
+                [31.9965, -102.0788],
+                {}
+            ).addTo(map_266eec30c86a4f1df629587d01369e5c);
+        
+    
+            var icon_236eac77772635f26457bc5beabfeca8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_147638569e2cd5e0eaf1bcb94d322f35.setIcon(icon_236eac77772635f26457bc5beabfeca8);
+        
+    
+        var popup_ecbf4700514d306e5dab61b7c690985b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6d989ffc0c7477353ce5b6b2f865122 = $(`<div id="html_d6d989ffc0c7477353ce5b6b2f865122" style="width: 100.0%; height: 100.0%;">DoubleTree by Hilton</div>`)[0];
+            popup_ecbf4700514d306e5dab61b7c690985b.setContent(html_d6d989ffc0c7477353ce5b6b2f865122);
+        
+
+        marker_147638569e2cd5e0eaf1bcb94d322f35.bindPopup(popup_ecbf4700514d306e5dab61b7c690985b)
+        ;
+
+        
+    
+    
+            var marker_ac66eb43b2140cbba9c822920ea32498 = L.marker(
+                [31.998, -102.079],
+                {}
+            ).addTo(map_266eec30c86a4f1df629587d01369e5c);
+        
+    
+            var icon_5695e1d44675cd3e0f575016ad1ddad4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ac66eb43b2140cbba9c822920ea32498.setIcon(icon_5695e1d44675cd3e0f575016ad1ddad4);
+        
+    
+        var popup_15cd46da09f35a67f787439f5f06ef94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f43ffa3ea99de85d8e1ea07fc1d2c60 = $(`<div id="html_3f43ffa3ea99de85d8e1ea07fc1d2c60" style="width: 100.0%; height: 100.0%;">Hotel Santa Rita</div>`)[0];
+            popup_15cd46da09f35a67f787439f5f06ef94.setContent(html_3f43ffa3ea99de85d8e1ea07fc1d2c60);
+        
+
+        marker_ac66eb43b2140cbba9c822920ea32498.bindPopup(popup_15cd46da09f35a67f787439f5f06ef94)
+        ;
+
+        
+    
+    
+            var circle_913f6a1bbd86314412b9e151799134a4 = L.circle(
+                [31.9978, -102.0775],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.25, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(map_266eec30c86a4f1df629587d01369e5c);
+        
+    
+        var popup_c71a0a20bea775bbb570f88e342db4c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0af9da693328dfb5b8a198674fd5fbad = $(`<div id="html_0af9da693328dfb5b8a198674fd5fbad" style="width: 100.0%; height: 100.0%;">Core Nightlife Zone</div>`)[0];
+            popup_c71a0a20bea775bbb570f88e342db4c0.setContent(html_0af9da693328dfb5b8a198674fd5fbad);
+        
+
+        circle_913f6a1bbd86314412b9e151799134a4.bindPopup(popup_c71a0a20bea775bbb570f88e342db4c0)
+        ;
+
+        
+    
+</script>
+</html>
